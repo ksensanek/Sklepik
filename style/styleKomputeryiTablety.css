@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    border: solid 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headd{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+/* LOGO */
+
+.logo{
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 ;
+}
+
+.logo img{
+    height: 200px;
+}
+
+/* KONIEC LOGA */
+
+/* SEARCH */
+
+.search1 input{
+    border-radius: 20px;
+    width: 550px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 ;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+}
+
+.search1{ 
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.search1 i{
+    cursor: pointer;
+}
+
+.search1 i:hover{
+    color: #555353;
+}
+
+.search1 i:active{
+    color: #858484;
+} 
+/* KONIEC SEARCH*/
+
+/* IKONKI W HEAD */
+
+.head-nav{
+    font-size: 30px;
+    display: flex;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    gap: 30px;
+}
+
+.head-nav a{
+    margin-top: 10px;
+    color: #000000;
+    max-height: 40px;
+}
+
+.head-nav a:hover{
+    color: #4e4e4e;
+}
+
+.head-nav a:active{
+    color: #969191;
+}
+
+/* KONIEC IKONEK W HEAD */
+
+/* KONIEC HEAD */
+
+/* CENTER */
+
+.centrum{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+td{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.tabelajeden{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela1  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela1{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela1  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela1 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela1 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela1 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela1 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela1 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela1 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela1 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.tabeladwa{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela2{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela2  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela2  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela2 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela2 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela2 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela2 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela2 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela2 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela2 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.tabelatrzy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela3{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela3  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela3  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela3 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela3 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela3 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela3 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela3 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela3 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela3 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+   
+}
+
+.tablicacztery{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela4{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela4  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela4  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela4 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela4 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela4 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela4 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela4 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela4 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela4 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.tablicapiec{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela5{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela5  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela5  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela5 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela5 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela5 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela5 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela5 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela5 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela5 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.tablicaszesc{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.tabela6{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela6  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela6  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela6 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela6 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela6 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+}
+
+.tabela6 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela6 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela6 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela6 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.tablicasiedem{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.tabela7{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela7  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela7  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela7 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela7 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela7 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+}
+
+.tabela7 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela7 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela7 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela7 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+
+.tablicaosiem{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.tabela8{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #fff;
+}
+
+.tabela8  tr:first-child td:first-child{
+    border-bottom: 1px black solid;
+    background: #fff;
+}
+
+.tabela8  tr:first-child td:first-child:hover{
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 0px 0px 0px 0px;
+    cursor: default;
+}
+
+.tabela8 td:nth-child(1):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela8 td:nth-child(2):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela8 td:nth-child(3):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+}
+
+.tabela8 td:nth-child(4):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela8 td:nth-child(5):hover{
+    transform: scale(1.05,1.07);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    box-shadow: 10px 10px 10px 1px rgb(100, 100, 100);
+    background: #d4cdcd;
+    cursor: pointer;
+}
+
+.tabela8 p{
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tabela8 img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+
+/* KONIEC CENTER */
+
+/* POWRÓT */
+
+.powrot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+button{
+    height: 70px;
+    width: 250px;
+    color: #d4cdcd;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #83868d;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+button:hover{
+    transform: scale(1.04);
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    background: #505152;
+}
+
+button:active {
+    transform: scale(0.96);
+    color: #000000;
+    background: #c0c1c4;
+}
+
+/* KONIEC CENTER */
+
+/* STOPKA */
+
+.footer{
+    padding-top: 45px;
+    border: 1px solid black;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+/* STOPKA TOP */
+
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.naglowek{
+    font-size: 35px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    gap: 20px;
+}
+
+.first a{
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+.first a:hover{
+    color: #6a6a6a;
+}
+
+.first a:active{
+    color: #d3d0d0;
+}
+
+.secend{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.secend a{
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+.secend a:hover{
+    color: #6a6a6a;
+}
+
+.secend a:active{
+    color: #d3d0d0;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.third a{
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+.third a:hover{
+    color: #6a6a6a;
+}
+
+.third a:active{
+    color: #d3d0d0;;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.fourth a{
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+.fourth a:hover{
+    color: #6a6a6a;
+}
+
+.fourth a:active{
+    color: #d3d0d0;
+}
+
+/* KONIEC STOPKA TOP */
+
+/* STOPKA MID */
+.footer-mid{
+    padding-bottom: 50px;
+}
+
+.footerSocjal{
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 40px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.socjale{
+    border-top: 3px dashed black;
+    display: flex; 
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    justify-content: center;
+    gap: 85px;
+    margin-bottom: -50px;
+}
+
+.socjale .fb{
+    display: flex;
+    flex-direction: column;
+    color: #3b5998;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.socjale .fb:hover{
+    color: #5783e0;
+}
+
+.socjale .fb:active{
+    color:#273b68;
+}
+
+.socjale .insta{
+    color:#E1306C;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.socjale .insta:hover{
+    color:#f37da4;
+}
+
+.socjale .insta:active{
+    color: #9b2149;
+}
+
+.socjale .yt{
+    color: #c4302b;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.socjale .yt:hover{
+    color: #fc403a;
+}
+
+.socjale .yt:active{
+    color: #7c1e1b;
+}
+
+.socjale .twit{
+    color:  #00acee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.socjale .twit:hover{
+    color:  #56bde6;
+}
+
+.socjale .twit:active{
+    color:  #03729e;
+}
+
+.socjale .tt{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.socjale .tt:hover{
+    color: #555353;
+}
+
+.socjale .tt:active{
+    color: #8b8383;
+}
+
+/* KONIEC STOPKI MID */
+
+/* STOPKA BOTTOM */
+
+.footer-bot{
+    justify-content: space-between;
+    display: flex; 
+    border: 1px solid black;
+}
+
+.fright{
+    font-family: 'Lato' , sans-serif;
+    font-weight: 400;
+}
+
+.fright:hover{
+    cursor: pointer;
+}
+
+/* KONIEC STOPKI BOOTOM */
